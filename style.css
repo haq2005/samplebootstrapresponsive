@@ -1,0 +1,19 @@
+body{
+	background: ghostwhite;
+}
+
+.row div{
+	border: solid 1px black;
+}
+.height{
+	height: 200px;
+}
+.crosslist li:hover{
+background: lightgrey;
+cursor: pointer;
+}
+@media screen and (max-width:  480px){
+	li{
+	font-size: 10px;
+}
+}
